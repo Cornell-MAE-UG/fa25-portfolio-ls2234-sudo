@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Lea Seow - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
@@ -19,19 +19,19 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 
 #### Education
 - **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  *Bachelor of Science in Mechanical Engineering*  
+  GPA: 3.5/4.0 | Graduation: May,2028
 
-- **[High School Name]**  
+- **Eleanor Roosevelt High School**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: June, 2024
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Software:** Autodesk Fusion 360, AutoCad  
+- **Programming:** Python  
+- **Tools:** 3D Printing  
 
 ---
 
@@ -49,22 +49,22 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 ---
 
 #### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
+- **Schaller and Weber - Cashier**  
+  May, 2028 - Aug, 2028  
+  - Restocked shelves, priced and organized items, and processed wholesale orders
+  - Assisted customers with finding items, price inquiries, and checking out items
 
 ---
 
 #### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
+- [Deutsches Sprachdiplom Stufe II: C1 Level], [Conference of Ministers of Education of the German federal states], [2024]  
 - [Achievement Name], [Competition/Event], [Year]  
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Member of Cornell Seismic Design Project Team  
+- Volunteer for Adaptive Climbing Group New York  
 
 ---
 
