@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Lea Seow
+image: /assestsimages/profile-pic.jpg
 ---
 
 ## About Me
