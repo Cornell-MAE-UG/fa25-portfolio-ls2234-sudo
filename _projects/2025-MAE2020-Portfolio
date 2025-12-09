@@ -22,3 +22,103 @@ Then, to calculate the maximum weight of the rod, we must first determine the fo
 Next, we must take the moment of the rod from about the bottom of the rod that is attached to the x axis. This allows us to eliminate the forces of the pin at the bottom of the rod and the forces of the pin in the parallel direction to the rod from the top. We assume the force of the pin at the top of the rod perpendicular to the rod is the maximum force exerted bty accuator. We also assume the moment is zero because there is no rotation about the bottom pin as the system is stationary. The only of frce acting on the rod is also at the top of the rod, directing in the vertical direction, is the weight of the rod. To calculate the force of the weight perpendicular to the rod, we must use the angle we defined earlier of the rod from the vertical (36.87 degrees). To calculate the force of the weight acting perpendicular to rod, we can assuming Wperpendicular=Wsina, where a is the angle from vertical and W is the weight of the rod. 
 
 Now, we can write out the moment equation by writing M=Wsina(L)-36(L)=0. We the can set Wsina=36 as the length at which the forces are acting from the bottom of the rod are the same. Then, by plugging in the angle a and diving 36kN by the sine of a, we determine that the maximum weight of the bar is 60kN. 
+
+## Step 1 — Rigid Bar Design
+
+### a) Problem Definition, Constraints/Objectives, and Degrees of Freedom
+
+The goal is to design a planar lifting mechanism that fits within a **150 cm × 50 cm** design window and uses one actuator, one bar, and three pin supports (two grounded) to lift the maximum possible weight to the highest possible height. For Step 1, the bar is modeled as **rigid**, and all supports and the actuator are assumed rigid and frictionless.
+
+**Constraints**
+- Mechanism must remain within the 150 cm × 50 cm boundary.
+- Exactly **three pin joints**, with two attached to the ground.
+- Actuator must come from the provided catalog.
+- Bar is treated as a rigid link.
+
+**Objectives**
+- Maximize **lifting height**.
+- Maximize **supported load**.
+- Maintain simple and manufacturable geometry.
+
+**Design Degrees of Freedom**
+- Bar length (determined by geometric constraints).
+- Ground pin locations for the actuator and bar.
+- Orientation of the actuator in the final lifted configuration.
+- Location of the actuator–bar pin connection.
+- **Beam cross-section and material** (documented now, applied later in Step 2):
+  - Cross-section: **5 cm × 5 cm** square  
+  - Area:  
+    \[
+    A = 25 \text{ cm}^2
+    \]
+  - Material: **steel**  
+  - The bar is rigid in Step 1, but defining this geometry prepares for Step 2 bending analysis.
+
+---
+
+### b) Static Analysis (Rigid Bar)
+
+To simplify geometry and maximize height, I positioned the actuator so its horizontal and vertical projections were **40 cm** and **30 cm**, forming a **3–4–5 right triangle**. This corresponds to an actuator angle:
+
+\[
+\theta = \tan^{-1}\left(\frac{30}{40}\right) \approx 36.87^\circ
+\]
+
+The actuator’s top pin sits at **30 cm height**, which becomes the mechanism’s maximum lift height.
+
+Since the actuator is perpendicular to the bar at maximum load, the bar angle from vertical equals the actuator angle from horizontal:
+
+\[
+\phi = 36.87^\circ
+\]
+
+The bar length \(L\) must satisfy:
+
+\[
+L \cos \phi = 30 \text{ cm}
+\]
+
+\[
+L = \frac{30}{\cos 36.87^\circ} \approx 37.5 \text{ cm}
+\]
+
+Thus the rigid bar length is **37.5 cm**.
+
+---
+
+### c) Load Capacity and Final Mechanism Design
+
+At the lifted configuration:
+
+- Weight \(W\) acts vertically downward at the top of the bar.
+- The actuator applies its full **36 kN** force perpendicular to the bar.
+- Taking moments about the lower pin removes reaction forces from the equations.
+
+The perpendicular component of the weight is:
+
+\[
+W_\perp = W \sin \phi
+\]
+
+Moment balance:
+
+\[
+W_\perp L - 36\text{ kN} \cdot L = 0
+\]
+
+\[
+W \sin 36.87^\circ = 36\text{ kN}
+\]
+
+\[
+W = \frac{36}{\sin 36.87^\circ} \approx 60\text{ kN}
+\]
+
+**Final Step 1 Result:**  
+The rigid-bar mechanism can theoretically lift **~60 kN** to a maximum height of **30 cm**.
+
+**Figure 1** (insert drawing): Final rigid-bar mechanism with annotated dimensions:  
+- Bar length: **37.5 cm**  
+- Actuator: **50 cm**, **36 kN**, **36.87°**  
+- Lift height: **30 cm**  
+- Steel bar cross-section: **5 cm × 5 cm**
