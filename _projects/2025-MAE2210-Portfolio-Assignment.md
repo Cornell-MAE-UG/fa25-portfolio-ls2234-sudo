@@ -17,7 +17,7 @@ This portfolio examines a water-to-water heat exchanger operating in parallel-fl
 <h3>Photographs from the Lab</h3>
 
 **Parallel-flow Lab Set-up**  
-![Parallel-flow lab photo]({{ "/assets/images/FA25Parallelflow-lab.png" | relative_url }})
+![Parallel-flow lab photo]({{ "/assets/images/FA25Parallelflow-lab.png" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
 
 **Counter-flow Lab Set-Up**  
 ![Counter-flow lab photo]({{ "/assets/images/FA25Counterflow-lab.jpeg" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
@@ -52,20 +52,14 @@ By changing which tubes are connected to which ends of the device, there is eith
 
 <h2>Mass, Energy, and Entropy Balance Equations</h2>
 
-<p><strong>Mass Balance</strong></p>
-<p>
-  <!-- Your mass balance equation/details go here -->
-</p>
+**Mass Balance**  
+![Mass Balance Calculations]({{ "/assets/images/FA25mass-balance.png" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
 
-<p><strong>Energy Balance</strong></p>
-<p>
-  <!-- Your energy balance equation/details go here -->
-</p>
+**Energy Balance**  
+![Energy Balance Calculations]({{ "/assets/images/FA25energy-balance.png" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
 
-<p><strong>Entropy Balance</strong></p>
-<p>
-  <!-- Your entropy balance equation/details go here -->
-</p>
+**Entropy Balance**  
+![Entropy Balance Calculations]({{ "/assets/images/FA25entropy-balance.png" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
 
 <h2>Experimental Results</h2>
 
@@ -100,6 +94,9 @@ By changing which tubes are connected to which ends of the device, there is eith
 </table>
 
 <h3>Heat Change per Unit Mass</h3>
+
+**Heat Change Calculations**  
+![Heat Change Calculations]({{ "/assets/images/heatchangecalcs.png" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
 
 <p>
 For each configuration the heat gained or lost per unit mass can be computed as:
