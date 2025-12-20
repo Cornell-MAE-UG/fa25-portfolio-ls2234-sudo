@@ -1,12 +1,13 @@
 ---
 layout: project
 title: FA25 MAE2210 Portfolio Assignment
-description: Heat Exchanger Performance: Parallel vs. Counterflow
-technologies: Heat Exchanger
+description:  Heat Exchanger Performance; Parallel vs. Counterflow
+technologies: N/A
+
 ---
 Introduction:
 
-    This portfolio examines a water-to-water heat exchanger operating in parallel-flow and counter-flow configurations. The device consists of two internal channels that allow hot and cold water streams to exchange energy through a conductive metal wall without mixing. This report will examine the thermodynamic behavior of this system and how changing the flow configurations affects its heat transfer performance by measuring the inlet and outlet temperatures of the hot and cold streams. Ultimately, understanding these thermodynamic differences provides direct insight into the design strategies used in real-world engineering applications. 
+This portfolio examines a water-to-water heat exchanger operating in parallel-flow and counter-flow configurations. The device consists of two internal channels that allow hot and cold water streams to exchange energy through a conductive metal wall without mixing. This report will examine the thermodynamic behavior of this system and how changing the flow configurations affects its heat transfer performance by measuring the inlet and outlet temperatures of the hot and cold streams. Ultimately, understanding these thermodynamic differences provides direct insight into the design strategies used in real-world engineering applications. 
 
 Photos and Schematics:
 
@@ -24,7 +25,7 @@ Photos and Schematics:
     Schematics:
 
         Parallel flow Schematic
-            Parallel-flow-Schem: assets/images/FA25Parallelflow.jpeg
+            Parallel-flow-Schem: assets/images/FA25Parallelflow.png
 
         Counter-flow Schematic
             Counter-flow-Schem: assets/images/FA25Counterflow.jpeg
