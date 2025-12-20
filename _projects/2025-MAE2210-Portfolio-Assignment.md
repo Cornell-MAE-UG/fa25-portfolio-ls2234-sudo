@@ -17,7 +17,7 @@ This portfolio examines a water-to-water heat exchanger operating in parallel-fl
 <h3>Photographs from the Lab</h3>
 
 **Parallel-flow Lab Set-up**  
-![Parallel-flow lab photo]({{ "/assets/images/FA25Parallelflow.jpeg" | relative_url }})
+![Parallel-flow lab photo]({{ "/assets/images/FA25Parallelflow-lab.png" | relative_url }})
 
 **Counter-flow Lab Set-Up**  
 ![Counter-flow lab photo]({{ "/assets/images/FA25Counterflow-lab.jpeg" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
@@ -44,10 +44,10 @@ By changing which tubes are connected to which ends of the device, there is eith
 <h2>System Diagrams</h2>
 
 **Control Volume Diagram: Parallel-flow**  
-![Parallel-flow CV Diagram]({{ "/assets/images/systyemdiagramparallel.png" | relative_url }})
+![Parallel-flow CV Diagram]({{ "/assets/images/FA25Parallelflow-CVdiagram.png" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
 
 **Control Volume Diagram: Counter-flow**  
-![Counter-flow lab photo]({{ "/assets/images/FA25Counterflow-lab.jpeg" | relative_url }})
+![Counter-flow lab photo]({{ "/assets/images/FA25Counterflow-CVdiagram.png" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
 
 
 <h2>Mass, Energy, and Entropy Balance Equations</h2>
