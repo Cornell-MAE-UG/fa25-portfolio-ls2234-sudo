@@ -136,3 +136,7 @@ In the parallel-flow configuration, the temperature of the cold water barely inc
 <p>
 When in the counter-flow configuration, the heat transfer resulting from the heat-exchanger was much larger.  The hot water cooled from 49.3°C to 20.7°C, while the cold water increased from 11.6°C to 32.0°C, rising 20.4°C. This large temperature rise shows that counter-flow maintains a significant temperature difference between the two streams along the entire length of the heat exchanger. Because the highest temperature of hot water is in contact with the cold water, the temperature gradient is high throughout the whole stream of cold water, and heat transfer is much larger than in parallel flow. The heat gained by the cold water per unit mass in counter-flow is 85.3 kJ/kg, which is more than two orders of magnitude higher than that in parallel-flow. Assuming the mass flow rate is the same, because the same pumps were used in both the hot and cold water to push them through the heat exchanger, these difference demonstrates that counter-flow heat exchangers cause a larger heat transfer and operate far more effectively than ones in parallel-flow.
 </p>
+
+<p>
+One change that would improve performance is adding extra metal surface inside the exchanger for the water to contact. More surface area increases heat transfer and lets a stronger temperature gradient be maintained, resulting in greater outlet temperature differences.
+</p>
