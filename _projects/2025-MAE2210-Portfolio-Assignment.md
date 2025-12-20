@@ -17,23 +17,19 @@ This portfolio examines a water-to-water heat exchanger operating in parallel-fl
 <h3>Photographs from the Lab</h3>
 
 **Parallel-flow Lab Set-up**  
-![Parallel-flow schematic]({{ "/assets/images/FA25Parallelflow.jpeg" | relative_url }})
+![Parallel-flow lab photo]({{ "/assets/images/FA25Parallelflow.jpeg" | relative_url }})
 
 **Counter-flow Lab Set-Up**  
-![Counter-flow schematic]({{ "/assets/images/FA25Counterflow-lab.jpeg" | relative_url }})
+![Counter-flow lab photo]({{ "/assets/images/FA25Counterflow-lab.jpeg" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
 
-<p><strong>Close-up of the Labeled Tube Connections</strong></p>
-<p>
- 
-</p>
 
 <h3>Schematics</h3>
 
 **System in Parallel-flow**  
-![Parallel-flow schematic]({{ "/assets/images/FA25Parallelflow.jpeg" | relative_url }})
+![Parallel-flow schematic]({{ "/assets/images/FA25Parallelflow.jpeg" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
 
 **System in Counter-flow**  
-![Counter-flow schematic]({{ "/assets/images/FA25Counterflow.jpeg" | relative_url }})
+![Counter-flow schematic]({{ "/assets/images/FA25Counterflow.jpeg" | relative_url }}){: style="width:350px; display:block; margin:20px auto;" }
 
 <h2>Qualitative Description of the Device</h2>
 
@@ -47,15 +43,12 @@ By changing which tubes are connected to which ends of the device, there is eith
 
 <h2>System Diagrams</h2>
 
-<p><strong>Control Volume Diagram: Parallel-flow</strong></p>
-<p>
-  <!-- Insert image or description of your parallel-flow CV diagram here -->
-</p>
+**Control Volume Diagram: Parallel-flow**  
+![Parallel-flow CV Diagram]({{ "/assets/images/systyemdiagramparallel.png" | relative_url }})
 
-<p><strong>Control Volume Diagram: Counter-flow</strong></p>
-<p>
-  <!-- Insert image or description of your counter-flow CV diagram here -->
-</p>
+**Control Volume Diagram: Counter-flow**  
+![Counter-flow lab photo]({{ "/assets/images/FA25Counterflow-lab.jpeg" | relative_url }})
+
 
 <h2>Mass, Energy, and Entropy Balance Equations</h2>
 
