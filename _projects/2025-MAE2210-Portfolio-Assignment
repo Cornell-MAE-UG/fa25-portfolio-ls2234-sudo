@@ -35,12 +35,12 @@ This portfolio examines a water-to-water heat exchanger operating in parallel-fl
 
 <p><strong>System in Parallel-flow</strong></p>
 <p>
-  <img src="/assets/images/FA25Parallelflow.jpeg" />
+  <img src="{{ '/assets/images/FA25Parallelflow.jpeg' | relative_url }}" alt="Parallel-flow schematic" />
 </p>
 
 <p><strong>System in Counter-flow</strong></p>
 <p>
-  <img src="/assets/images/FA25Counterflow.jpeg" />
+  <img src "{{ '/assets/images/FA25Counterflow.jpeg' | relative_url }}" alt="Counter-flow schematic" />
 </p>
 
 <h2>Qualitative Description of the Device</h2>
