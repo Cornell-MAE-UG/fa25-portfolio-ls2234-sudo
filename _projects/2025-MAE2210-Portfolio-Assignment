@@ -1,93 +1,156 @@
 ---
 layout: project
-image: /assets/images/FA25Counterflow-lab.jpeg
+title: 2025-MAE2210-Portfolio-Heat-Exchanger
 description: Heat Exchanger Performance; Parallel vs. Counter-flow
 technologies: N/A
+image: /assets/images/FA25Counterflow-lab.jpeg
 ---
 
-# Heat Exchanger Performance: Parallel vs. Counter-flow
+<h2>Introduction</h2>
 
-## Introduction
-
+<p>
 This portfolio examines a water-to-water heat exchanger operating in parallel-flow and counter-flow configurations. The device consists of two internal channels that allow hot and cold water streams to exchange energy through a conductive metal wall without mixing. This report will examine the thermodynamic behavior of this system and how changing the flow configurations affects its heat transfer performance by measuring the inlet and outlet temperatures of the hot and cold streams. Ultimately, understanding these thermodynamic differences provides direct insight into the design strategies used in real-world engineering applications. 
+</p>
 
-## Photos and Schematics
+<h2>Photos and Schematics</h2>
 
-### Photographs from the Lab
+<h3>Photographs from the Lab</h3>
 
-**Parallel-flow**
+<p><strong>Parallel-flow</strong></p>
+<p>
+  <img src="/assets/images/FA25Parallelflow.png" alt="Parallel-flow" />
+</p>
 
-![Parallel-flow](/assets/images/FA25Parallelflow.png)
+<p><strong>Counter-flow</strong></p>
+<p>
+  <img src="/assets/images/FA25Counterflow.jpeg" alt="Counter-flow" />
+</p>
 
-**Counter-flow**
+<p><strong>Close-up of the Labeled Tube Connections</strong></p>
+<p>
+  <img src="/assets/images/FA25Counterflow-lab.jpeg" alt="Close-up of labeled tube connections" />
+</p>
 
-![Counter-flow](/assets/images/FA25Counterflow.jpeg)
+<h3>Schematics</h3>
 
-**Close-up of the Labeled Tube Connections**
+<p><strong>System in Counter-flow</strong></p>
+<p>
+  <img src="/assets/images/function-graph.png" alt="System in counter-flow schematic" />
+</p>
 
-![Close-up](/assets/images/FA25Counterflow-lab.jpeg)
+<p><strong>System in Parallel-flow</strong></p>
+<p>
+  <!-- Add a parallel-flow schematic image here if you have one -->
+</p>
 
-### Schematics
+<h2>Qualitative Description of the Device</h2>
 
-**System in Counter-flow**
+<p>
+The device used in this lab was a metal water-to-water heat exchanger with four plastic tubes creating two isolated internal channels, one of which is for hot water, and the other which is for cold water. There are four separate containers set up that act as tanks, one of which has ice and is insulated with styrofoam, and another of which contains an immersion heater. One pump circulates hot (orange) water from the tank heated with an immersion heater through tubes 3 and 4, going through the heat exchanger into an empty tank, while a second pump circulates cold (blue) water from the tank in styrofoam through tubes 1 and 2 into another empty tank. In this system, the heat exchanger allows the heat to pass from one water stream to the other through conduction across the metal and convection within each water stream without actually mixing the streams. 
+</p>
 
-![Function graph](/assets/images/function-graph.png)
-
-*(Replace with a more accurate schematic later if needed.)*
-
-## Qualitative Description of the Device
-
-The device used in this lab was a metal water-to-water heat exchanger with four plastic tubes creating two isolated internal channels, one of which is for hot water, and the other which is for cold water. There are four separate containers set up that act as tanks, one of which has ice and is insulated with styrofoam, and another of which contains an immersion heater. One pump circulates hot (orange) water from the tank heated with an immersion heater through tubes 3 and 4, going through the heat exchanger into an empty tank, while a second pump circulates cold (blue) water from the tank in styrofoam through tubes 1 and 2 into another empty tank. In this system, the heat exchanger allows the heat to pass from one water stream to the other through conduction across the metal and convection within each water stream without actually mixing the streams.
-
+<p>
 By changing which tubes are connected to which ends of the device, there is either parallel-flow, where hot and cold water flow in the same direction, or counter-flow, where the streams entered from opposite ends and flowed in opposite directions. This allows for a comparison of the heat-transfer performance based on the temperature distribution between the two configurations.
+</p>
 
-## System Diagrams
+<h2>System Diagrams</h2>
 
-Control Volume Diagram: Parallel-flow  
-*(Insert your drawing later)*
+<p><strong>Control Volume Diagram: Parallel-flow</strong></p>
+<p>
+  <!-- Insert image or description of your parallel-flow CV diagram here -->
+</p>
 
-Control Volume Diagram: Counter-flow  
-*(Insert your drawing later)*
+<p><strong>Control Volume Diagram: Counter-flow</strong></p>
+<p>
+  <!-- Insert image or description of your counter-flow CV diagram here -->
+</p>
 
-## Mass, Energy, and Entropy Balance Equations
+<h2>Mass, Energy, and Entropy Balance Equations</h2>
 
-Mass Balance
+<p><strong>Mass Balance</strong></p>
+<p>
+  <!-- Your mass balance equation/details go here -->
+</p>
 
-Energy Balance
+<p><strong>Energy Balance</strong></p>
+<p>
+  <!-- Your energy balance equation/details go here -->
+</p>
 
-Entropy Balance
+<p><strong>Entropy Balance</strong></p>
+<p>
+  <!-- Your entropy balance equation/details go here -->
+</p>
 
-## Experimental Results
+<h2>Experimental Results</h2>
 
-### Measured Temperatures
+<h3>Measured Temperatures</h3>
 
-| Flow Configuration              | Th,in (°C) | Th,out (°C) | Tc,in (°C) | Tc,out (°C) |
-|--------------------------------|-----------:|------------:|-----------:|------------:|
-| Parallel-flow (1→2), (3→4)     |       39.0 |        28.3 |       22.7 |        22.8 |
-| Counter-flow (1→2), (4→3)      |       49.3 |        20.7 |       11.6 |        32.0 |
+<table>
+  <thead>
+    <tr>
+      <th>Flow Configuration</th>
+      <th>Th, in (°C)</th>
+      <th>Th, out (°C)</th>
+      <th>Tc, in (°C)</th>
+      <th>Tc, out (°C)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Parallel-Flow (1→2), (3→4)</td>
+      <td>39.0</td>
+      <td>28.3</td>
+      <td>22.7</td>
+      <td>22.8</td>
+    </tr>
+    <tr>
+      <td>Counter-Flow (1→2), (4→3)</td>
+      <td>49.3</td>
+      <td>20.7</td>
+      <td>11.6</td>
+      <td>32.0</td>
+    </tr>
+  </tbody>
+</table>
 
-### Heat Change per Unit Mass
+<h3>Heat Change per Unit Mass</h3>
 
+<p>
 For each configuration the heat gained or lost per unit mass can be computed as:
+</p>
 
-`q = c_p (T_out − T_in)`
+<p><code>q = c_p (T_out − T_in)</code></p>
 
+<p>
 From the calculations performed in the lab:
+</p>
 
-- **Parallel-flow:**  
-  Heat gained by the cold stream per unit mass  
-  `q_c ≈ 0.418 kJ/kg`
+<ul>
+  <li>
+    <strong>Parallel-flow:</strong> Heat gained by the cold stream per unit mass is approximately 
+    <code>q_c ≈ 0.418 kJ/kg</code>.
+  </li>
+  <li>
+    <strong>Counter-flow:</strong> Heat gained by the cold stream per unit mass is approximately 
+    <code>q_c ≈ 85.3 kJ/kg</code>.
+  </li>
+</ul>
 
-- **Counter-flow:**  
-  Heat gained by the cold stream per unit mass  
-  `q_c ≈ 85.3 kJ/kg`
-
+<p>
 This shows that, for the same mass flow rate, the counter-flow configuration allows for a much larger heat transfer.
+</p>
 
-## Conclusions
+<h2>Conclusions</h2>
 
+<p>
 The results of this experiment clearly reveal the effect of the flow configuration on heat transfer performance. 
+</p>
 
+<p>
 In the parallel-flow configuration, the temperature of the cold water barely increased. The hot water cooled only from 39.0°C to 28.3°C, while the cold water warmed from 22.7°C to just 22.8°C, which is an increase of only 0.1°C. The minuscule rise in temperature indicates that once the two streams began to approach one another in temperature, and as the cold and hot water flow together through the heat exchanger, the temperature difference quickly decreased along the length of the heat exchanger. As a result, the cold stream absorbed very little heat, and the heat-transfer rate remained low. Above, I have calculated that the heat lost by the hot stream and the heat gained by the cold stream were computed, revealing that in parallel-flow, the heat gained by the cold stream per unit mass is equal to only 0.418 kJ/kg. Let's compare these results to those taken from the counter-flow configuration. 
+</p>
 
+<p>
 When in the counter-flow configuration, the heat transfer resulting from the heat-exchanger was much larger. The hot water cooled from 49.3°C to 20.7°C, while the cold water increased from 11.6°C to 32.0°C, rising 20.4°C. This large temperature rise shows that counter-flow maintains a significant temperature difference between the two streams along the entire length of the heat exchanger. Because the highest temperature of hot water is in contact with the cold water, the temperature gradient is high throughout the whole stream of cold water, and heat transfer is much larger than in parallel flow. The heat gained by the cold water per unit mass in counter-flow is 85.3 kJ/kg, which is more than two orders of magnitude higher than that in parallel-flow. Assuming the mass flow rate is the same, because the same pumps were used in both the hot and cold water to push them through the heat exchanger, these differences demonstrate that counter-flow heat exchangers cause a larger heat transfer and operate far more effectively than ones in parallel-flow.
+</p>
