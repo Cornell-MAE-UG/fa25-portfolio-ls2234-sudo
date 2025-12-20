@@ -23,24 +23,24 @@ This portfolio examines a water-to-water heat exchanger operating in parallel-fl
 
 <p><strong>Counter-flow</strong></p>
 <p>
-  <img src="/assets/images/FA25Counterflow.jpeg" alt="Counter-flow" />
+  <img src="/assets/images/FA25Counterflow-lab.jpeg" alt="Counter-flow" />
 </p>
 
 <p><strong>Close-up of the Labeled Tube Connections</strong></p>
 <p>
-  <img src="/assets/images/FA25Counterflow-lab.jpeg" alt="Close-up of labeled tube connections" />
+  <img src="" alt="Close-up of labeled tube connections" />
 </p>
 
 <h3>Schematics</h3>
 
 <p><strong>System in Counter-flow</strong></p>
 <p>
-  <img src="/assets/images/function-graph.png" alt="System in counter-flow schematic" />
+  <img src="/assets/images/FA25Counterflow.jpeg" alt="System in counter-flow schematic" />
 </p>
 
 <p><strong>System in Parallel-flow</strong></p>
 <p>
-  <!-- Add a parallel-flow schematic image here if you have one -->
+  <img src="assets/images/FA25Parallelflow.jpeg" alt="System in parallel-flow schematic" />
 </p>
 
 <h2>Qualitative Description of the Device</h2>
