@@ -16,15 +16,11 @@ This portfolio examines a water-to-water heat exchanger operating in parallel-fl
 
 <h3>Photographs from the Lab</h3>
 
-<p><strong>Parallel-flow</strong></p>
-<p>
-  ![Parallel-flow lab photo]({{ "/assets/images/FA25Parallelflow-lab.jpeg" | relative_url }})
-</p>
+**Parallel-flow Lab Set-up**  
+![Parallel-flow schematic]({{ "/assets/images/FA25Parallelflow.jpeg" | relative_url }})
 
-<p><strong>Counter-flow</strong></p>
-<p>
-![Counter-flow lab photo]({{ "/assets/images/FA25Counterflow-lab.jpeg" | relative_url }})
-</p>
+**Counter-flow Lab Set-Up**  
+![Counter-flow schematic]({{ "/assets/images/FA25Counterflow-lab.jpeg" | relative_url }})
 
 <p><strong>Close-up of the Labeled Tube Connections</strong></p>
 <p>
@@ -38,20 +34,6 @@ This portfolio examines a water-to-water heat exchanger operating in parallel-fl
 
 **System in Counter-flow**  
 ![Counter-flow schematic]({{ "/assets/images/FA25Counterflow.jpeg" | relative_url }})
-
-
-
-
-<p><strong>System in Parallel-flow</strong></p>
-<p>
-![Parallel-flow schematic]({{ "/assets/images/FA25Parallelflow.jpeg" | relative_url }})
-</p>
-
-<p><strong>System in Counter-flow</strong></p>
-<p>
-![Shaded rendering of earlier version]({{ "/assets/images/FA25Counterflow.jpeg" | relative_url }}){: .style="width: 200px"}
-</p>
-
 
 <h2>Qualitative Description of the Device</h2>
 
